@@ -1,0 +1,28 @@
+input{
+	display: block;
+	margin: 3px;
+	height: 40px;
+	padding: 5px;
+	width: 300px;
+	font-size: 1.5em;
+	color: #555;
+}
+input[type=text]{
+	background: rgba(255,255,255,1.0);
+}
+input[readonly=readonly]{
+	background: #fdfdfd;
+	border: 1px solid #333;
+	width: 302px;
+}
+input[type=button]{
+	width: 314px;
+	height: 50px;
+}
+form{
+	text-align: center;
+}
+#result{
+	margin-top: 20px;
+	font-size: 18px;
+}
